@@ -33,51 +33,68 @@ Monthly charge variable had 120 negative values instead of positive. Used Find a
 **a) Univariate analysis**
 
 ![](churn.jpg)
+<br/>
 Many customers churned because of the advantage the competitor has on devices and offers
-
+<br/>
+<br/>
 ![](rate.jpg)
+<br/>
 The churn rate of customers in last quater is 26.54%
-
+<br/>
+<br/>
 Each variable was filtered with churned and stayed status to compare which variable has more effect to customer status (churned and stayed)
-
-
+<br/>
+<br/>
 ![](marriage.jpg)
-Customers who churned many of them are not married while who stayed are married. Marriage status has affects customer churning
-
+<br/>
+Customers who churned many of them are not married while who stayed are married. Marriage status affects customer churning
+<br/>
+<br/>
 ![](internet_type.jpg)
+<br/>
 Fibre Optic internet type is the most prefered internet type
-
-	
+<br/>
+<br/>
 ![](contract_type.jpg)
+<br/>
 Customers who churned many of them have Month-to-month contract type while stayed customers have one or two years contract type. Contract type affects customer churning
-	
+<br/>
+<br/>	
 ![](billing.jpg)
+<br/>
 Paperless billing is the most prefered billing
-
+<br/>
+<br/>
 ![](payment.jpg)
+<br/>
 Bank withdrawl is the payment method mostly prefered
-
-
+<br/>
+<br/>
 **b) Bivariate analysis**
 
 Correlation between Tenure and total revenue
+<br/>
 ![](correlation.jpg)
+<br/>
 There is positive correlation. A customer with large tenure is likely to spend more to the services
+<br/>
+<br/>
 
 **c) Label encoding**
 
 Encoded variables with Yes/No values with 1/0 values respectively. The reason is to quantify the services to see which services provided by the company were mostly used by stayed, churned and joined customers. 11 variables were encoded and summarized using pivot table. Extracted data from pivot table, transposed then conditional formatted the data
-
+<br/>
 ![](customer_profile.jpg)
-
+<br/>
 Home phone service, internet service, and unlimited data are the services mostly used by churned and stayed customers
+<br/>
+<br/>
 
 **Conclusion**
 
 Factors influencing customer churning are;
 * Marriage
 * Contract type which has high impact to churning
-
 
 ### High Value Customers Analysis
 * High value customers at risk
