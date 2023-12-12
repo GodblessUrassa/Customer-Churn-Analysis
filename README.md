@@ -80,9 +80,9 @@ There is positive correlation. A customer with large tenure is likely to spend m
 <br/>
 <br/>
 
-**c) Label encoding**
+**c) Binary variables**
 
-Encoded variables with Yes/No values with 1/0 values respectively. The reason is to quantify the services to see which services provided by the company were mostly used by stayed, churned and joined customers. 11 variables were encoded and summarized using pivot table. Extracted data from pivot table, transposed then conditional formatted the data
+11 binary variables were created replacing Yes/No categories with with 1/0 values respectively. The reason is to quantify the services to see which services provided by the company were mostly used by stayed, churned and joined customers. 11 variables were encoded and summarized using pivot table. Extracted data from pivot table, transposed then conditional formatted the data
 <br/>
 ![](customer_profile.jpg)
 <br/>
