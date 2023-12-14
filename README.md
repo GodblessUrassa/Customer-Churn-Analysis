@@ -1,4 +1,7 @@
 # Customer Churn Analysis
+![](report.jpg)
+---
+## Scenario
 Help a fictional Telecommunications company to improve retention by analyzing their CRM data to identify high-value customers and churn risks. The company provides phone and internet services to 7,043 customers in California, and includes details about customer demographics, location, services, and current status. You'll be assuming the role of a BI Consultant for Maven Communications, a California-based Telecommunications company.
 ## Challenge Objective
 You've been hired to help the company improve retention by identifying high value customers and churn risks, and have been asked to present your findings to the CMO in the form of a single page report or dashboard.
@@ -109,9 +112,6 @@ Created 3 quartiles; Q1 = Low, Q2 = medium and Q3 = high
 ``=IF(AI2>QUARTILE.INC($AI$2:$AI$7044,3),"High",IF(AI2>QUARTILE.INC($AI$2:$AI$7044,1),"Medium","Low"))``
 
 ![](high_value_customers.jpg)
-
-## Report
-![](report.jpg)
 
 ## Recommendations
 * The company should provide incentives to customers to accomodate one or two year contract
