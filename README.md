@@ -113,6 +113,11 @@ Created 3 quartiles; Q1 = Low, Q2 = medium and Q3 = high
 ## Report
 ![](report.jpg)
 
+## Recommendations
+* The company should provide incentives to customers to accomodate one or two year contract
+* Optimize the data package plan
+* To check the performance of devices example fibre optic cables
+
 
 
 
